@@ -7,20 +7,21 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: darkslategray;
 }
 main{
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    height: 100vh;
-    width: 100vw;
-    background-color: darkslategray;
+    height: 100%;
+    width: 100%;
 }
 .displayCon{
     background-color: aqua;
     height: 100px;
-    width: 75vw;
+    width: 90%;
     margin: 10px;
 }
 #display{
