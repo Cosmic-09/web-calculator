@@ -1,4 +1,4 @@
-header{
+body{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6,5 +6,35 @@ header{
 main{
     display: flex;
     align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 600px;
+    width: 400px;
+    background-color: darkslategray;
+}
+.displayCon{
+    background-color: aqua;
+    height: 100px;
+    width: 375px;
+    margin: 10px;
+}
+#display{
+    font-size: 30px;
+    margin: 20px;
+}
+
+#buttons{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    margin-top: 50px;
+}
+
+.butn{
+    margin: 10px;
+    height: 50px;
+    width: 25%;
+    color: black;
+    font-size: 30px;
+    background-color: azure;
 }
