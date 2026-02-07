@@ -20,7 +20,7 @@ main{
 .displayCon{
     background-color: aqua;
     height: 100px;
-    width: 375px;
+    width: 75vw;
     margin: 10px;
 }
 #display{
